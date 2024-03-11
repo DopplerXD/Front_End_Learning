@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 选择器</title>
+    
+    <style>
+        h2 {
+            color: green;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        #header {
+            color: #0066ff; /*天依蓝*/
+        }
+        * { /* 通用选择器 */
+            font-family: KaiTi;
+        }   
+        .father > .son {
+            color: yellowgreen;
+            font-size: 35px;
+            font-weight: bolder;
+        }
+        .father p {
+            color: brown;
+            font-size: 25px;
+        }
+        h3 + p {
+            color: red;
+        }
+        #element:hover {
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>不同类型的 CSS 选择器</h1>
+    <h2>元素选择器示例</h2>
+    <h3 class="highlight">类选择器示例</h3>
+    <h4 id="header">id选择器示例</h4>
+    <p>使用*在style添加通用选择器,这里设置为楷体</p>
+    <br>
+    <p>优先级: id > 类 > 标签名</p>
+
+    <div class="father">
+        <p class="son">子元素选择器示例</p>
+        <div>
+            <p class="grandson">后代选择器示例</p>
+        </div>
+    </div>
+    <br>
+
+    <p>这是一个普通的p标签</p>
+    <h3>相邻兄弟标签选择器</h3>
+    <p>这是另一个p标签</p>
+
+    <h3 id="element">伪类选择器示例</h3>
+</body>
+</html>

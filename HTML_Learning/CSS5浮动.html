@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 浮动 test</title>
+    <style>
+        .father {
+            background-color: aquamarine;
+            border: 5px red solid;
+            /* height: 200px; */
+            overflow: hidden;
+        }
+        /* .father::after {
+            content: "";
+            display: table;
+            clear: both;
+        } */
+        .left-son {
+            width: 100px;
+            height: 100px;
+            background-color: #0066ff;
+            float: left;
+        }
+        .right-son {
+            width: 100px;
+            height: 100px;
+            background-color: #b2d;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="left-son">左浮动</div>
+        <div class="right-son">右浮动</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+console.log('Hello, world by 外联标签样式');
