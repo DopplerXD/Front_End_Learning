@@ -1,9 +1,6 @@
-.a {
-    color: blue;
-}
 .Head_Banner {
     margin: 0;
-    background-image: url(./image/head_banner.jpeg);
+    background-image: url(../image/head_banner.jpeg);
     height: 180px;
 }
 .head_banner_image {
@@ -15,21 +12,22 @@
 .download_icon_white {
     height: 14px;
 }
-.ul_navigation {
+.left_bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-.ul_navigation li {
+.left_bar li {
     float: left;
 }
-.ul_navigation li a {
+.left_bar li a {
     font-family: 'Microsoft JhengHei';
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 12px;
+    padding: 20px 9px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: bolder;
 }
