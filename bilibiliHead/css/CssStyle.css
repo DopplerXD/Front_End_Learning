@@ -1,10 +1,12 @@
+body {
+    margin: 0;
+}
 .Head_Banner {
     margin: 0;
     background-image: url(../image/head_banner.jpeg);
+    background-size: cover;
+    background-position: -220px;
     height: 180px;
-}
-.head_banner_image {
-    width: 100%;
 }
 .bili_icon_white {
     height: 14px;
@@ -29,5 +31,5 @@
     padding: 20px 9px;
     text-decoration: none;
     font-size: 14px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
