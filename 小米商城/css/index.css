@@ -1,0 +1,82 @@
+.ndash, .sep {
+    margin: 0 0.25em;
+    font-family: sans-serif;
+}
+.container {
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-topbar {
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background-color: #333;
+}
+.site-topbar .topbar-nav {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.site-topbar .topbar-info {
+    /* float: right; */
+    height: 40px;
+    line-height: 40px;
+}
+.site-topbar a {
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+.site-topbar a:hover {
+    color: #fff;
+}
+.site-topbar .sep {
+    margin: 0 0.3em;
+    color: #424242;
+}
+.site-header {
+    z-index: 20;
+    height: 100px;
+}
+.site-header, .site-header.container{
+    position: relative;
+}
+.site-header .header-logo {
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+.site-header .logo {
+    position: relative;
+    display: block;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+}
+.ir {
+    display: block;
+    text-align: left;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+.site-header .logo:before, .site-header .logo:after {
+    background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/mi.com-assets/shop/img/logo-mi2.png);
+    background-size: 56px;
+    transform: translateZ(0);
+}
+.site-header .logo:before {
+    opacity: 0;
+}
+.site-header .logo:before, .site-header .logo:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 56px;
+    height: 56px;
+    content: "";
+    transform-origin: 50% 50%;
+}

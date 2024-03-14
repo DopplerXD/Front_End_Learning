@@ -1,0 +1,14 @@
+body, div, ul, li, dl, dt, dd, ol, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, image
+{ margin: 0; padding: 0; }
+body { 
+    width: 100%;
+    text-align: center; 
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif, "Microsoft YaHei";
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+a { text-decoration: none; background-color: rgba(0, 0, 0, 0);}
+img { border: none; }
+ol, ul, li { list-style: none; }
